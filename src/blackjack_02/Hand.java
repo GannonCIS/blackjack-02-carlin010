@@ -11,4 +11,25 @@ package blackjack_02;
  */
 public class Hand {
     
+    private Card[] myCards = new Card[5];
+    private int score = 0;
+    private int numOfCards = 0;
+    
+    public Hand(){}
+    
+    public void addCard() {
+        
+    }
+    
+    public int getScore() {
+        return score;
+    }
+    
+    public int getNumOfCards() {
+        return numOfCards;
+    }
+    
+    public void printHand() {
+        
+    }
 }
